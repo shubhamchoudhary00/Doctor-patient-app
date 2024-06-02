@@ -1,0 +1,133 @@
+.bmi-calculator-container {
+    max-width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-left: 150%;
+    margin-top: 30%;
+    padding-top: 10%;
+    padding: 20px;
+    background-color:  rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .bmi-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 25%;
+    height: 500px;
+    margin-top: 5%;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+  
+  .input-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20%;
+  }
+  
+  .cal-btn {
+    background-color: #f9004d;
+    padding: 14px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 999px;
+    border: 2px dashed #f9004d;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+    /* margin-right: 50%; */
+   }
+   
+   .cal-btn span:last-child {
+    display: none;
+   }
+   
+   .cal-btn:hover {
+    transition: .4s;
+    border: 2px dashed #f9004d;
+    background-color: #fff;
+    color: #f9004d;
+   }
+   
+   .cal-btn:active {
+    background-color: #87dbd0;
+   }
+   
+   
+  
+  .result-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .graph-container {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .graph-bar {
+    height: 100%;
+    background-color: #45f3ff;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .bmi-range {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Background Styling */
+  /* body {
+    background-color: #3498DB;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    margin: 50px;
+    background-image: radial-gradient(#e4e4e4 1px, transparent 1px),
+      radial-gradient(#e4e4e4 1px, transparent 1px);
+    background-size: 20px 20px;
+  } */
+  
+
+  
